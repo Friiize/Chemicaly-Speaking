@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  margin: 0px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  background-color: red;
+}
+#main {
+  grid-column: 2;
+}
+canvas {
+  grid-row: 2;
+  background-color: teal;
+}
+
+#btn {
+  display: flex;
+}
+
+.btn {
+  width: 100px;
+  height: 25px;
+  grid-row: 1;
+}
+
+#btnChaudron {
+  width: 250px;
+}
+
+#score {
+  display: flex;
+}
